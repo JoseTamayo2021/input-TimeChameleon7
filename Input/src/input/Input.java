@@ -24,7 +24,7 @@ public class Input {
           Scanner scan = new Scanner(new File("stuff.txt"));
           
           // Create an Array
-          String[] stringArr = new String[5];
+          String[] stringArr = new String[7];
           
           // Take input line-by-line and store it in arr[]
           stringArr[0] = scan.nextLine();
@@ -32,8 +32,12 @@ public class Input {
           stringArr[2] = scan.nextLine();
           stringArr[3] = scan.nextLine();
           stringArr[4] = scan.nextLine();
+          stringArr[5] = scan.nextLine();
+          stringArr[6] = scan.nextLine();
           
-          out.printf("%s %s %s %s %s", stringArr[0], stringArr[1], stringArr[2], stringArr[3], stringArr[4]);
+          
+          out.printf("%s %s %s %s %s", stringArr[0], stringArr[1],
+          stringArr[2], stringArr[3], stringArr[4], stringArr[5], stringArr[6]);
           
           
           
